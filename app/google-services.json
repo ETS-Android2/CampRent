@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "12793353462",
+    "firebase_url": "https://camprent-23115.firebaseio.com",
+    "project_id": "camprent-23115",
+    "storage_bucket": "camprent-23115.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12793353462:android:2ad7c902485ee3dee308d7",
+        "android_client_info": {
+          "package_name": "com.test.camprent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12793353462-oh8medunavf51r6h9nkfkki1ts66bbce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSDXB8tIeAHL1PYR3IkjYFC1FkLvP4JsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12793353462-oh8medunavf51r6h9nkfkki1ts66bbce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

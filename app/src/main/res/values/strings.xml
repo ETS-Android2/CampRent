@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">CampRent</string>
+    <string name="publish">Publish</string>
+    <string name="logout">Logout</string>
+    <string name="make_yourself_at_home">Make Yourself at Home</string>
+    <string name="search">Search</string>
+    <string name="title">title</string>
+    <string name="availability">Availability</string>
+    <string name="phone">Phone</string>
+    <string name="price">Price</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome_to_search_page">Welcome to search page</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="from">From ...</string>
+    <string name="to">to...</string>
+    <string name="camprent">CampRent</string>
+    <string name="navigation_drawer_open"> Open navigation drawer </string>
+    <string name="navigation_drawer_close"> Close navigation drawer </string>
+    <string name="home">Home</string>
+    <string name="favorits">Favorits</string>
+    <string name="settings">Settings</string>
+
+    <string name="communicate">Communicate</string>
+    <string name="rate_us">Rate us</string>
+    <string name="share">Share</string>
+    <string name="about_us">About us</string>
+
+    <string name="profile">Profile</string>
+    <string-array name="names">
+        <item> Dome tent </item>
+        <item> Cabin tent </item>
+        <item> Tent accessories </item>
+        <item> Canopie </item>
+        <item> Backpack tent </item>
+        <item> Sleeping bag </item>
+        <item> Sleeping pad </item>
+        <item> Camping pillow </item>
+        <item> Flashlight </item>
+        <item> Camp Chair </item>
+        <item> Camp table </item>
+        <item> Screen house </item>
+        <item> Hammock </item>
+        <item> Cot </item>
+        <item> Multi-tool </item>
+        <item> Stove and fuel </item>
+        <item> Bottle opener </item>
+        <item> Can opener </item>
+        <item> Corkscrew </item>
+        <item> Camp grill </item>
+        <item> Grill rack </item>
+        <item> Griddle </item>
+        <item> Dutch oven </item>
+        <item> Rainwear(jacket) </item>
+        <item> Water sandals </item>
+        <item> Swimsuit </item>
+
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

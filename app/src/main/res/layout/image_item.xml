@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/backdark"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="5dp">
+
+    <TextView
+        android:id="@+id/from_retreive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/image_view_retreive"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:translationX="10dp"
+        android:translationY="20dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:translationX="140dp"
+        android:translationY="100dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="27dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/contact_phone"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/text_view_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/courgette"
+            android:text=" phone"
+            android:textColor="@color/home_3"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="27dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/cash"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/text_view_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/courgette"
+            android:text="  price"
+            android:textColor="@color/home_3"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="268dp"
+        android:layout_height="85dp"
+        android:orientation="vertical"
+        android:translationX="150dp">
+
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:fontFamily="@font/courgette"
+            android:text="TextView"
+            android:textColor="@color/home_3"
+            android:textSize="20sp"
+            android:translationY="19dp" />
+
+        <TextView
+            android:id="@+id/text_view_adress"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:fontFamily="@font/aclonica"
+            android:shadowColor="@color/home_3"
+            android:text="TextView"
+            android:textColor="@color/home_3"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/to_retreive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/key_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/mail_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+</androidx.cardview.widget.CardView>

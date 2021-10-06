@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@drawable/yassmine"
+    android:fitsSystemWindows="true"
+    tools:context=".interface3"
+    tools:openDrawer="start">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        android:background="#101010"
+        app:menu="@menu/main_menu" >
+
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="662dp"
+
+            android:layout_below="@+id/search_bar"
+            android:layout_marginTop="12dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="362dp"
+            android:layout_height="63dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:padding="5dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Search..."
+            android:textColor="@color/home_3"></EditText>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="44dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="19dp"
+            android:alpha="9"
+            android:background="@color/white"
+            app:backgroundTint="#00FFFFFF"
+            app:icon="@drawable/menu_icon24" />
+
+        <ImageView
+            android:id="@+id/imageView"
+
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="300dp"
+            android:src="@android:drawable/ic_menu_search" />
+
+        <TextView
+            android:id="@+id/mail_entry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
